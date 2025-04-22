@@ -1,7 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-// AMPLIFY NO ESTA CREANDO LA INSTANCIA!!!
-if (process.env.GOOGLE_API_KEY) {
+if (process.env.NEXT_PUBLIC_GOOGLE_API_KEY) {
   console.log("Google API Key is loaded.");
 } else {
   console.error("Google API Key is not available!");
